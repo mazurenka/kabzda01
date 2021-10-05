@@ -5,7 +5,7 @@ import UncontrolledAccordion from "./components/UncontrolledAccordion";
 import {Rating, RatingValueType} from "./components/Rating";
 import {UncontrolledRating} from "./components/UncontrolledRating";
 
-function App() {
+function App()  {
 
     let [ratingValue, setRatingValue] = useState<RatingValueType>(0)
 
